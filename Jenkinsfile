@@ -10,9 +10,9 @@ pipeline {
 	stages {
 		stage ('git clone') {
 			steps {
-				gitcredentialsId: ${repositoryCredentials}
+				git gitcredentialsId: ${repositoryCredentials}
 					url: ${repository}
-			}		
+			}
 		}
 		stage('tests') {
 			steps {

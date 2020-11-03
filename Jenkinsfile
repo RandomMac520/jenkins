@@ -1,5 +1,5 @@
 pipeline {
-	encironment {
+	environment {
 		repository = "https://github.com/RandomMac520/jenkins.git" // github url
 		repositoryCredentials = "" // Jenkins cred ID
 	}

@@ -1,7 +1,7 @@
 pipeline {
 	encironment {
-		repository = "" # github url
-		repositoryCredentials = "" # Jenkins cred ID
+		repository = "https://github.com/RandomMac520/jenkins.git" // github url
+		repositoryCredentials = "" // Jenkins cred ID
 	}
 	agent any
 	options {
